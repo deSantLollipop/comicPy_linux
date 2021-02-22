@@ -1,0 +1,15 @@
+﻿{% extends "base.html" %}
+{% block content %}
+    {% for url in images %}
+    <div class="col">
+        <div class="card" style="width: 18rem; height: auto">
+            <img class="card-img-top" src="{{url}}" alt="comic">
+            <div class="card-body">
+                <div class="embed-responsive embed-responsive-3by4">
+                    <a href="{{url}}" class="btn btn-primary">View full image</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}
