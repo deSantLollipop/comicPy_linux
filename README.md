@@ -14,11 +14,11 @@ index.html - rozszerza plik "base.html", i jest go następcą. wtyczka z pythona
 
 
 
-#########################################################################
+################ Instrukcja dla linuksa ##################
 
 Pliki "index.html" i "base.html" koniecznie musza znajdować sie pod katalogiem "templates".
 
-Sprawdzilem na linuksie też dziala : 
+Sprawdzilem na Ubuntu, też dziala : 
 
 najperw musi byc zainstalowany python3;
 
