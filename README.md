@@ -23,10 +23,15 @@ Sprawdzilem na linuksie też dziala :
 najperw musi byc zainstalowany python3;
 
 $ sudo apt install python3.8
+
 $ sudo apt install python-pip
+
 $ chmod a+x app.py
+
 $ chmod a+x templates/index.html
+
 $ chmod a+x templates/base.html
+
 $ python3 -V
   outupt powinien byc :
   Python 3.8.5
@@ -36,8 +41,11 @@ $ sudo apt install python3-venv
 w dyrektorii z naszymi plikami :
 
 $ python3 -m venv venv
+
 $ source venv/bin/activate
+
 $ pip install Flask
+
 $ python -m flask --version
   output powinien byc :
   Python 3.8.5
@@ -45,6 +53,7 @@ $ python -m flask --version
   Werkzeug 1.0.1
 
 $ export FLASK_APP=app.py
+
 $ flask run
   output : 
   * Serving Flask app "hello.py"
