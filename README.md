@@ -1,5 +1,5 @@
 # comicPy_linux
-Python script for simple image scapping.
+Python script for simple image scraping.
 
 only executable files
 nr.txt - This file contains the comic index numbers that I would like to display on my "index.html" webpage. These numbers can be added or removed as needed.
